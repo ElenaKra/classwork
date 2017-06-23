@@ -1,0 +1,90 @@
+
+html {
+    font-size: 62.5%;
+}
+* {
+    box-sizing: border-box;
+}
+    .section {
+            background: #000;
+               }
+    .section .blog {
+            margin: 0 10vw 10vw;
+                }
+    .section img {
+            width: 100%;
+            height: 20vh;
+}
+    .blog {
+            flex-flow:row;
+            justify-content: space-between;
+	        display: flex;
+	        flex-wrap: nowrap;
+	        justify-content: space-between;
+            margin: auto;
+                          }
+    article {
+            width: 22%;
+            border-top: 2px #000;
+            border-bottom: none;
+            padding: 2rem 0;
+            font: 1.4rem 'Open Sans';
+}
+    article span{
+        display: inline-block;
+        font: 1.4rem 'Open Sans';
+        color: #fff;
+        margin:0 0 1rem;
+        text-align: left;
+        }
+    
+    article h2 {
+        font: 2rem/3.1rem 'Open Sans', sans-serif;
+        color: #FFF;
+        margin: 0 0 1rem 0;
+        text-align:left;
+        padding:1rem auto;
+        }
+    article p {
+        font: 1.5rem/1.8rem 'Open Sans';
+        color: #959595;
+        text-align:left;
+            }
+    img {
+            position: relative;
+            display: inline-block;
+            max-width: 100%;
+            
+}
+a.button {
+  position:relative;
+  display: inline-block;
+  width: 8rem;
+  height: 3.5rem;
+  line-height: 2.5em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  outline: none;
+  border: 1px solid #F64C2B;
+  border-radius: 3px;
+  background-color: #EA1502 ;
+}
+ a.button:active {
+  top: .1em;
+  left: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+    article {
+            flex-flow: row wrap;
+            justify-content: space-between;
+            }
+@media screen and (max-width:768px){
+        .section img {
+            width: 100%;
+            height: 20vh;
+    }
+    z
+   
+    
